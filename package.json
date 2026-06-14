@@ -1,0 +1,23 @@
+{
+  "name": "selenium-testing",
+  "version": "1.0.0",
+  "description": "NodeJS Selenium test with Jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "Selenium",
+    "Automated",
+    "test"
+  ],
+  "author": "Alex Mendez",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  },
+  "devDependencies": {
+    "jest": "^30.4.2",
+    "selenium-webdriver": "^4.44.0"
+  }
+}
