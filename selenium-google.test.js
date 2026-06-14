@@ -23,7 +23,7 @@ describe('', () => {
   };
 
   it('As a user I want to open google.com', async () => {
-    await driver.get(process.env.URL);
+    await driver.get(process.env.GOOGLE_URL);
     await driver.getTitle().then(title => {
       expect(title).toEqual('Google');
     });

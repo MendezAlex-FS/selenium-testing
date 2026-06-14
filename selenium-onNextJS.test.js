@@ -24,7 +24,7 @@ describe('', () => {
   };
 
   it('Should open home page - and check the title is "Home"', async () => {
-    await driver.get(process.env.URL);
+    await driver.get(process.env.ONNEXTJS_URL);
     await driver.getTitle().then(title => {
       expect(title).toEqual('Home');
     });
