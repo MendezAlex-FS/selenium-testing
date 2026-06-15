@@ -1,7 +1,7 @@
 const { Builder, By, Key, until } = require('selenium-webdriver');
 require('dotenv').config();
 
-describe('', () => {
+describe('Tests for wdvwai-seleniumOnNextJS', () => {
   let driver;
 
   beforeAll(async () => {

@@ -1,7 +1,7 @@
 const { Builder, By, Key, until } = require('selenium-webdriver');
 require('dotenv').config();
 
-describe('', () => {
+describe('Sample tests using google.com', () => {
   let driver;
 
   beforeAll(async () => {
